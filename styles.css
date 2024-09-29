@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('https://w0.peakpx.com/wallpaper/1023/871/HD-wallpaper-premium-kitchen-cooking-background.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: calc(45% - 20px); /* Two items per row */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+}
+
+.menu-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .menu-item {
+        width: 100%; /* Full width on small screens */
+    }
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+footer div a {
+    margin: 0 10px;
+    color: #fff;
+}
